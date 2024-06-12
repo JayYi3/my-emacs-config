@@ -14,16 +14,16 @@
 
 (set-face-attribute 'default nil :height 140)
 
-(use-package evil
-  :ensure t
-  :config
-  (evil-mode 1))
+;;(use-package evil
+;;  :ensure t
+;;  :config
+;;  (evil-mode 1))
 
 (setq backup-directory-alist
       `(("." . "~/.emacs.d/backups")))
 
 (setq auto-save-file-name-transforms
-      `((".*" "~/.emacs.dauto-save-list/" t)))
+      `((".*" "~/.emacs.d/auto-save-list/" t)))
 
 (setq custom-file "~/.emacs.d/emacs-custom.el")
 (load custom-file t)
