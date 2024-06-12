@@ -1,0 +1,10 @@
+auto-save-list/
+backups/
+elpa/
+emacs-custom.el
+eshell/
+tutorial/
+
+
+.#*
+.DS_Store
