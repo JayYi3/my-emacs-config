@@ -4,7 +4,9 @@ elpa/
 emacs-custom.el
 eshell/
 tutorial/
+tree-sitter/
+transient/
 
-
+tramp
 .#*
 .DS_Store
